@@ -1,0 +1,90 @@
+body { 
+  width: 100%; 
+  height: 100%; 
+  margin: 0; 
+  background-color: #1b1b32; 
+  background-image: url(https://s.hdnux.com/photos/27/70/60/6261789/4/rawImage.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  color: #f5f6f7; 
+  font-family: Tahoma; 
+  font-size: 16px; 
+} 
+
+header { 
+  text-align: center; 
+  font-size: 25px; 
+  color: #f5f6f7; 
+  width: 70vw; 
+  max-width: 700px; 
+  min-width: 300px; 
+  margin: 0 auto; 
+  padding-bottom: 2em; 
+  background-color: #1b1b32b6; 
+} 
+
+form { 
+  width: 70vw; 
+  max-width: 700px; 
+  min-width: 300px; 
+  margin: 0 auto; 
+  padding-bottom: 2em; 
+  background-color: #1b1b32b6; 
+}
+
+fieldset { 
+  border: none; 
+  padding: 2rem 0; 
+  border-bottom: 3px solid #3b3b4f; 
+}
+
+.suggestion {
+  margin: 20px;
+  padding: 10px;
+}
+
+
+.checkbox-container {
+  margin-bottom: 10px; 
+}
+
+label {
+  display: inline-block; 
+  vertical-align: middle; 
+  margin-left: 10px; 
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  vertical-align: middle; 
+  margin-right: 10px; 
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  width: 100%; 
+  padding: 10px; 
+  margin-top: 5px; 
+  margin-bottom: 15px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+textarea {
+  margin: auto;
+  width:97%;
+
+ }
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #4CAF50;
+  border-color: white;
+  min-width: 300px;
+  color: white;
+}
