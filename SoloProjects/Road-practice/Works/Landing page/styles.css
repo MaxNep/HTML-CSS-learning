@@ -1,0 +1,71 @@
+
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background-color: #ffcccc;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+header h1 {
+    margin: 0;
+}
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.section-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #d63384;
+}
+.about, .contact {
+    background-color: #fff4f4;
+}
+.products, .delivery {
+    background-color: #ffebeb;
+}
+.product-item {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.product-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #d63384;
+    border-radius: 5px;
+}
+.contact-form button {
+    background-color: #d63384;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #b0256d;
+}
