@@ -1,4 +1,4 @@
-const display = document.getElementById('calc-display'); // Убедитесь, что ID правильный
+const display = document.getElementById('calc-display'); 
 const buttons = document.querySelectorAll('.buttons button');
 
 let currentInput = ''; // Текущее введённое число
@@ -26,8 +26,7 @@ function handleButtonClick(value) {
     // Если нажат оператор
     if (currentInput) {
       if (isResultDisplayed) {
-        // Если результат отображается, используем его как первое число
-        isResultDisplayed = false; // Сбрасываем флаг
+        isResultDisplayed = false; 
       } else {
         firstOperand = currentInput;
       }
@@ -40,14 +39,14 @@ function handleButtonClick(value) {
       currentInput = calculate(firstOperand, operator, currentInput);
       firstOperand = '';
       operator = '';
-      isResultDisplayed = true; // Устанавливаем флаг
+      isResultDisplayed = true; 
     }
   } else if (value === 'AC') {
-    // Если нажато "AC" (сброс)
+    //"AC" (сброс)
     currentInput = '';
     firstOperand = '';
     operator = '';
-    isResultDisplayed = false; // Сбрасываем флаг
+    isResultDisplayed = false;
   } else if (value === '+/-') {
     // Смена знака числа
     if (currentInput) {
@@ -82,5 +81,5 @@ function calculate(first, operator, second) {
 }
 
 function updateDisplay() {
-  display.value = currentInput || '0'; // Показываем либо текущее число, либо "0"
+  display.value = currentInput || '0'; // Текущее число, либо "0"
 }
